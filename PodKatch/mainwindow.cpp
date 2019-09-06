@@ -22,7 +22,7 @@ void MainWindow::on_actionExit_triggered()
 
 void MainWindow::on_actionAdd_Podcast_triggered()
 {
-    QDialog* addPodcastDialog = new QDialog(0,0);
+    QDialog* addPodcastDialog = new QDialog();
 
     Ui_AddPodcastDialog addPodcastUi;
     addPodcastUi.setupUi(addPodcastDialog);
