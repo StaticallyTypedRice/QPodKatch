@@ -15,6 +15,9 @@ public:
     explicit AddPodcastDialog(QWidget *parent = nullptr);
     ~AddPodcastDialog();
 
+private slots:
+    void on_rssUrlOkButton_clicked();
+
 private:
     Ui::AddPodcastDialog *ui;
 };
