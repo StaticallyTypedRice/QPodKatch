@@ -25,13 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        addpodcastdialog.cpp \
         main.cpp \
         mainwindow.cpp
 
 HEADERS += \
+        addpodcastdialog.h \
         mainwindow.h
 
 FORMS += \
+        addpodcastdialog.ui \
         mainwindow.ui
 
 # Default rules for deployment.
